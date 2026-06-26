@@ -30,4 +30,9 @@ Grade F
 '''
 #----------------------------------------------------------------------------------------------------
 #-----------------------------------------Coding-----------------------------------------------------
+marks = int(input("Enter your marks: "))
+# validating the marks
+if(marks<0&marks>100):
+    exit("marks cannot be in negative and grater than 100")
+
 
