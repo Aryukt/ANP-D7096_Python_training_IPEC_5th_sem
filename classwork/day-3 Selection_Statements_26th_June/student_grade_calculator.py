@@ -30,9 +30,24 @@ Grade F
 '''
 #----------------------------------------------------------------------------------------------------
 #-----------------------------------------Coding-----------------------------------------------------
-marks = int(input("Enter your marks: "))
+marks = int(input("Enter marks between 0 to 100: "))
 # validating the marks
-if(marks<0&marks>100):
-    exit("marks cannot be in negative and grater than 100")
-
+if(marks<0 or marks>100):
+    exit("Invalid Marks")
+# checking the input for grading
+if(marks>=90):
+    print("Grade A")
+    
+elif(marks>=75):
+    print("Grade B")
+elif(marks>=50):
+    print("Grade C")
+else:
+    print("Grade F")
+#----------------------------------------------------------------------------------------------------
+'''
+Output:
+Enter your marks: 76
+Grade B
+'''
 
