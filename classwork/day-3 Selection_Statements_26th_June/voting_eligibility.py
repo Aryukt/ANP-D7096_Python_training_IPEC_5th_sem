@@ -1,4 +1,4 @@
-'''------------------------------------------------Voting eligibilty----------------------------------------------------
+'''------------------------------------------------Voting eligibili ty----------------------------------------------------
 Problem Statement:
 Write a program to check a person is eligible for voting or not.
 A person is eligible for voting if age is 18 or above.
