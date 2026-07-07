@@ -9,12 +9,14 @@ Finally display:
 • Average Marks
 • Number of students who passed (Marks ≥ 40)
 • Number of students who scored distinction (Marks ≥ 75)'''
-N = int(input("Enter the number of students: "))
+N = int(input("Enter the number of students: ")) 
+# Entering 5, then it will take 5 students
 marks = []
+# Creating empty list
 for i in range(N):
     mark = float(input(f"Enter marks of student {i + 1} (out of 100): "))
     marks.append(mark)
-
+# Ex- marks=[50,60,75,90,35]
 highest_marks = max(marks)
 lowest_marks = min(marks)
 average_marks = sum(marks) / len(marks) if marks else 0
